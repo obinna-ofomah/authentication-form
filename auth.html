@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Authentication Form</title>
+    <link rel="stylesheet" href="auth.css">
+</head>
+<body>
+    <div class="main-container">
+        <div class="caption">
+            <h2>A Simple Authetication Form</h2>
+        </div>
+        <form action="#">
+
+            <div class="header">
+                <div>
+                    <h1>Create Account</h1>
+                </div>
+
+                <div>
+                    <p>Enjoy smooth and stress-free Property Management and Renting
+                        with our AI-powered system
+                    </p>
+                </div>
+            </div>
+            <hr>
+
+            <div class="name-container">
+                <div>
+                    <label for="fullname">Full Name</label>
+                </div>
+                
+                <div>
+                    <input type="text" placeholder="John Doe" name="fullname" id="fullname">
+                </div>
+            </div>
+
+
+            <div class="email-container">
+                <div>
+                    <label for="email">Email Address</label>
+                </div>
+                
+                <div>
+                    <input type="email" placeholder="example@gmail.com" id="email" name="email">
+                </div>
+            </div>
+            <div class="mobile-container">
+                <div>
+                    <label for="mobile">Phone Number</label>
+                </div>
+                
+                <div>
+                    <input type="number" placeholder="+234900000000" id="mobile">
+                </div>
+            </div>
+
+            <div class="password-containter">
+                <div>
+                    <label for="password">Password</label>
+                </div>
+
+                <div>
+                    <input type="password" id="password" placeholder="Enter password">
+                </div>
+            </div>
+
+
+            <div class="gender-container">
+                <div>
+                    <label for="gender">Gender</label>
+                </div>
+                <div>
+                    <div class="male">
+                        <input type="radio" value="male" id="male" name="gender">
+                        <label for="male">Male</label>
+                    </div>
+                    <div class="female">
+                        <input type="radio" value="female" id="female" name="gender">
+                        <label for="female">Female</label>
+                    </div>
+                </div>
+            </div>
+
+
+            <div>
+                <div>
+                    <label for="location">Select Location</label>
+                </div>
+
+                <div>
+                    <select name="location" id="location">
+                        <option value="select">Select</option>
+                        <option value="aba">Aba</option>
+                        <option value="onitsha">Onitsha</option>
+                        <option value="umuahia">Umuahia</option>
+                        <option value="abakaliki">Abakaliki</option>
+                    </select>
+                </div>
+            </div>
+
+
+            <div>
+                <button>Create Account</button>
+            </div>
+            
+        </form>
+
+        <div>
+            <button>Sign Up</button>
+        </div>
+    </div>
+</body>
+</html>
