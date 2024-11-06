@@ -42,8 +42,8 @@
                         <label for="email">Email Address</label>
                     </div>
                     
-                    <div>
-                        <input type="email" placeholder="example@gmail.com" id="email" name="email">
+                    <div class="in-email">
+                        <input type="email" placeholder="example@gmail.com" id="email" name="email" class="email">
                     </div>
                 </div>
                 <div class="mobile-container">
@@ -51,8 +51,8 @@
                         <label for="mobile">Phone Number</label>
                     </div>
                     
-                    <div>
-                        <input type="number" placeholder="+234900000000" id="mobile">
+                    <div class="in-mobile">
+                        <input type="text" placeholder="+234900000000" id="mobile" class="mobile">
                     </div>
                 </div>
             </div>
@@ -63,42 +63,46 @@
                 </div>
 
                 <div class>
-                    <input type="password" id="password" placeholder="Enter password">
+                    <input type="password" id="password" placeholder="Enter password" class="pass">
                 </div>
             </div>
 
 
-            <div class="gender-container">
-                <div>
-                    <label for="gender">Gender</label>
-                </div>
-                <div>
-                    <div class="male">
-                        <input type="radio" value="male" id="male" name="gender">
-                        <label for="male">Male</label>
+            <div class="gender-location">
+                <div class="gender">
+                    <div>
+                        <label for="gender">Gender</label>
                     </div>
-                    <div class="female">
-                        <input type="radio" value="female" id="female" name="gender">
-                        <label for="female">Female</label>
+                    <div class="gender-radio">
+                        <div class="male">
+                            <input type="radio" value="male" id="male" name="gender">
+                            <label for="male">Male</label>
+                        </div>
+                        <div class="female">
+                            <input type="radio" value="female" id="female" name="gender">
+                            <label for="female">Female</label>
+                        </div>
+                    </div>
+            
+                </div>
+
+
+                <div class="location">
+                    <div>
+                        <label for="location">Select Location</label>
+                    </div>
+
+                    <div>
+                        <select name="location" id="location">
+                            <option value="select">Select</option>
+                            <option value="aba">Aba</option>
+                            <option value="onitsha">Onitsha</option>
+                            <option value="umuahia">Umuahia</option>
+                            <option value="abakaliki">Abakaliki</option>
+                        </select>
                     </div>
                 </div>
-            </div>
 
-
-            <div>
-                <div>
-                    <label for="location">Select Location</label>
-                </div>
-
-                <div>
-                    <select name="location" id="location">
-                        <option value="select">Select</option>
-                        <option value="aba">Aba</option>
-                        <option value="onitsha">Onitsha</option>
-                        <option value="umuahia">Umuahia</option>
-                        <option value="abakaliki">Abakaliki</option>
-                    </select>
-                </div>
             </div>
 
 

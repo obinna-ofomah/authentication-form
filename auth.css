@@ -47,7 +47,7 @@ p {
     padding-bottom: 1.2rem;
 }
 
-.name-container, .email-container, .mobile-container, .password-container, .gender-container {
+.name-container, .email-container, .mobile-container, .password-container, .gender-container, .gender-location {
     width: 100%;
     height: auto;
     padding: 1rem;
@@ -58,14 +58,47 @@ p {
     width: 100%;
 }
 
-.name {
+.name, .email, .mobile, .pass {
     width: 100%;
     height: auto;
     border: none;
     padding: .5rem; 
     border-radius: .5rem;
     margin-top:1rem;
+}
 
+.email-mobile {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.email-container, .mobile-container {
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: .3rem;
 }
 
 
+.gender-location {
+    display: flex;
+    width: 100%;
+    height: auto;
+   
+}
+
+.gender, .location {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.gender-radio {
+    display: flex;
+    column-gap: 3rem;
+}
